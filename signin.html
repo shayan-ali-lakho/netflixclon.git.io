@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="hee.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+    <section class="bg-image" id="section" style="background-image:
+    linear-gradient(to bottom, rgba(28, 29, 29, 0.52), rgba(12, 12, 12, 0.73)),
+    url('./netflix-bg.jpg'); background-size: cover;">
+    <div class="netflix-bg-container">
+        <!-- <img
+          src="/netflix-bg.jpg"
+          alt="netflix background image"
+          class="netflix-bg-image"
+        /> -->
+      </div>
+        <img class="logo" src="./logo.png" alt="">
+        <div class="mask d-flex align-items-center h-100">
+            <div class="container h-100">
+                <div class="row d-flex justify-content-center align-items-center h-100">
+                    <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+                        <div class="card" id="caard">
+                            <div class="card-body p-5 text-center">
+
+                                <h3 class="mb-5 float-start sign-in-text">Sign up</h3>
+                                <div class="form-outline mb-4">
+                                    <input type="email" id="name" class="shadow-none form-control form-control-lg"
+                                        placeholder="Full Name" />
+                                </div>
+
+                                <div class="form-outline mb-4">
+                                    <input type="email" id="email" class="shadow-none form-control form-control-lg"
+                                        placeholder="Email" />
+                                </div>
+
+                                <div class="form-outline mb-4">
+                                    <input type="password" id="pass" class="shadow-none form-control form-control-lg"
+                                        placeholder="Password" />
+                                    <div class="label" id="label_box"></div>
+                                </div>
+                                <button class="btn btn-lg btn-block w-100" onclick="login()">Login</button>
+                                <!-- Checkbox -->
+                                <div class="form-check float-start mt-3 remember">
+                                    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                                    <label for="vehicle1"> Remember me</label><br>
+                                </div>
+                                <div class="form-check float-end mt-3">
+                                    <label for="vehicle1"> Help me?</label><br>
+                                </div>
+                                <div class="form-check float-start mt-3 remember">
+                                    <label for="vehicle1"> New to Netflix? <a href="/">Sign in now.</a></label><br>
+                                </div>
+                                <div class="form-check float-start mt-3 remember">
+                                    <label for="vehicle1" class="protected">This page is protected by Google reCAPTCHA
+                                        to ensure you're
+                                        not a bot. <a href="/">Learn more.</a>
+                                    </label><br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer id="footer">
+            <section class="footer container-fluid mt-5 pt-5 w-50">
+                <!--Grid row-->
+                <div class="row">
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase text-light">Questions? Contact us.</h5>
+
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <a href="#!" class="text-white">FAQ</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">Cookie Preferences</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase text-light"></h5>
+
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <a href="#!" class="text-white">Help Center</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">Corporate Information</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase text-light">Links</h5>
+
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <a href="#!" class="text-white">Terms of Use</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase text-light">Links</h5>
+
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <a href="#!" class="text-white">Privacy</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+                </div>
+                <!--Grid row-->
+            </section>
+        </footer>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <script>
+
+        let arr = new Array();
+
+        function login() {
+            arr[0] = document.getElementById("name").value;
+            arr[1] = document.getElementById("email").value;
+            arr[2] = document.getElementById("pass").value;
+            console.log(arr)
+            document.getElementById("caard").style.display = "none"
+            document.getElementById("footer").style.display = "none"
+            let secc = document.getElementById("section").style.height = "99vh"
+            let setemail = document.createElement("input");
+            setemail.classList.add("email-input");
+            setemail.setAttribute("placeholder","Enter Your Email")
+            secc.appendChild(setemail);
+        }
+
+
+
+    </script>
+</body>
+
+</html>
